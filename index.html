@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script> 
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+
+    <div id="score-box">
+        <h2 id="p1">Player 1</h2>
+        <h2 id="p2">Player 2</h2>
+    </div>
+    
+    <button type="button" id="lets-play-btn" onclick="myFunction()">Lets Play!</button>
+    <div id="image-container-rps">
+        <div class="column" id="rock">
+            <input type="image" src="images/rock.png" name="p1-start" class="btTxt submit" id="rock-option" />
+        </div> 
+        <div class="column" id="paper">
+            <input type="image" src="images/paper.png" name="p1-start" class="btTxt submit" id="paper-option" />
+        </div> 
+        <div class="column" id="scissors">
+            <input type="image" src="images/scissors.png" name="p1-start" class="btTxt submit" id="scissors-option" />
+        </div> 
+    </div>
+
+    <div id="battle-ground">
+        <div class="column-2" id="player-1">
+            <!--<input type="image" src="images/rock.png" name="p1-start" class="btTxt submit" id="p1-start" />-->
+           <img src="images/circle-cropped(1).png" alt="rock-image">
+        </div> 
+        <div class="column-2" id="player-2">
+            <img src="images/circle-cropped(2).png" alt="paper-image">
+        </div>
+    </div>
+</body>
+</html>

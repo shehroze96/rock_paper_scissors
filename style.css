@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+}
+#image-container-rps {
+}
+
+.column {
+    float: left;    
+}
+
+#rock {
+    text-align: right;
+    width: 33%;
+}
+
+#rock img{
+    border-radius: 150px;
+    margin-right: -135px;
+    margin-top: 8px;
+}
+
+#paper {
+    text-align: center;
+    width: 33%;
+}
+
+#paper img{
+    border-radius: 150px;
+}
+
+#scissors {
+    text-align: left;
+    width: 33%;    
+}
+
+#scissors img{
+    border-radius: 150px;
+    margin-left: -135px;
+    margin-top: 10px;
+}
+
+.column-2 {
+    float: left;
+    margin-top: 50px;
+}
+
+
+
+#player-1 input {
+    margin-left: 716px;
+    margin-right: 108px;
+}
+
+#player-1 img {
+    margin-left: 0px;
+}
+
+#player-2 img {
+    margin-left: 260px;
+}
+
+#p1 {
+    text-align: left;
+    margin-top: 11px;
+    margin-left: 174px;
+}
+
+#p2 {
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 210px;
+}
+
+#lets-play-btn {
+    margin-left: 890px;
+    margin-bottom: 10px;
+}
+
+#battle-ground {
+    margin-left: 700px;
+}
+
